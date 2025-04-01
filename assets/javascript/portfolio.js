@@ -122,7 +122,7 @@ const writeLine = (text, speed, timeout, callback) => {
 };
 
 $.getJSON(ipgeolocation, (data) => {
-    writeLine(['https://nvfy.lol/authenticating...', "Granting access to <span style='font-size: 14px; color: #e87aff;'>[Website]</span>..."], 30, () => {
+    writeLine(['https://mrow.rip/authenticating...', "Granting access to <span style='font-size: 14px; color: #e87aff;'>[Mrow]</span>..."], 30, () => {
         if (app.skippedIntro) return;
 
         clearCursor();
@@ -137,7 +137,7 @@ $.getJSON(ipgeolocation, (data) => {
 
             clearCursor();
 
-            writeLine([`<i style='color: #F62459'>nvfy.lol â˜­â™›â›§</i>`], 120, 500, () => {
+            writeLine([`<i style='color: #F62459'>mrow.rip â˜­â™›â›§</i>`], 120, 500, () => {
                 timeouts.push(
                     setTimeout(() => {
                         if (app.skippedIntro) return;
