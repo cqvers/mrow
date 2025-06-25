@@ -722,7 +722,7 @@ input {
 
 @font-face {
     font-family: 'consolas';
-    src: url('../media/other/consolas.ttf') format('truetype');
+    src: url('../media/other/consolas.ttf?v=1') format('truetype');
 }
 
 * {
