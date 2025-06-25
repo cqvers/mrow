@@ -202,15 +202,14 @@
         </script>
     </audio>
 
-    <video id="background" loop="">
-        <source src="assets/media/mp4/dt.mp4" type="video/mp4" />
-        <script>
-            const video = document.getElementById('background');
+<video id="background" loop muted playsinline autoplay>
+  <source src="assets/media/mp4/dt.mp4" type="video/mp4" />
+</video>
 
-            app.videoElement = video;
-            app.videoElement.volume = 0;
-        </script>
-    </video>
+<script>
+  const video = document.getElementById('background');
+  app.videoElement = video;
+</script>
 </div>
 
 <div class="top-right">
