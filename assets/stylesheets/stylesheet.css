@@ -721,8 +721,8 @@ input {
 }
 
 @font-face {
-    font-family: consolas;
-    src: url('../media/other/consolas.ttf');
+    font-family: 'consolas';
+    src: url('../media/other/consolas.ttf') format('truetype');
 }
 
 * {
